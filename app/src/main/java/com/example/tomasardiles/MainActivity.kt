@@ -25,16 +25,26 @@ import com.example.tomasardiles.ui.theme.TomasardilesTheme
 import com.example.tomasardiles.MyMessages as MyMessages
 
 private val messages: List<MyMessage> = listOf(
-    MyMessage("hello-1","world"),
-    MyMessage("hello-2","world"),
-    MyMessage("hello-3","world"),
-    MyMessage("hello-4","world"),
-    MyMessage("hello-5","world"),
-    MyMessage("hello-6","world"),
-    MyMessage("hello-7","world"),
-    MyMessage("hello-8","world"),
-    MyMessage("hello-9","world"),
-    MyMessage("hello-10","world"))
+    MyMessage("hello-1","world , 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod" +
+                                  "tempor incididunt ut labore et dolore magna aliqua. Ultricies mi eget mauris"),
+    MyMessage("hello-2","world , 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod" +
+                                  "tempor incididunt ut labore et dolore magna aliqua. Ultricies mi eget mauris"),
+    MyMessage("hello-3","world , 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod" +
+                                  "tempor incididunt ut labore et dolore magna aliqua. Ultricies mi eget mauris"),
+    MyMessage("hello-4","world , 4 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod" +
+                                  "tempor incididunt ut labore et dolore magna aliqua. Ultricies mi eget mauris"),
+    MyMessage("hello-5","world , 5 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod" +
+                                  "tempor incididunt ut labore et dolore magna aliqua. Ultricies mi eget mauris"),
+    MyMessage("hello-6","world , 6 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod" +
+                                  "tempor incididunt ut labore et dolore magna aliqua. Ultricies mi eget mauris"),
+    MyMessage("hello-7","world , 7 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod" +
+                                  "tempor incididunt ut labore et dolore magna aliqua. Ultricies mi eget mauris"),
+    MyMessage("hello-8","world , 8 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod" +
+                                  "tempor incididunt ut labore et dolore magna aliqua. Ultricies mi eget mauris"),
+    MyMessage("hello-9","world , 9 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod" +
+                                  "tempor incididunt ut labore et dolore magna aliqua. Ultricies mi eget mauris"),
+    MyMessage("hello-10","world , 10 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod" +
+                                   "tempor incididunt ut labore et dolore magna aliqua. Ultricies mi eget mauris"))
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
